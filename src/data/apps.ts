@@ -53,8 +53,8 @@ export const APPS: StackApp[] = [
   },
   {
   id: "playwrite-umber",
-  index: "03",
-  key: "3",
+  index: "04",
+  key: "4",
   name: "Playwrite",
   headline: "The Playwrite workspace.",
   description:
