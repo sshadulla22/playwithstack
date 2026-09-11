@@ -42,7 +42,7 @@ export const APPS: StackApp[] = [
     id: "playbook-arena",
     index: "03",
     key: "3",
-    name: "Playbook",
+    name: "Playbook-Advance",
     headline: "The Arena mirror.",
     description:
       "The same component encyclopedia running on Arena — a second doorway into the library so the playbook is always one click away, whichever host you prefer.",
@@ -51,4 +51,17 @@ export const APPS: StackApp[] = [
     host: "01a089ea…arena.site",
     meta: "Alternate deploy",
   },
+  {
+  id: "playwrite-umber",
+  index: "03",
+  key: "3",
+  name: "Playwrite",
+  headline: "The Playwrite workspace.",
+  description:
+    "Explore the Playwrite workspace — a dedicated environment for experimenting with components, building interfaces, and keeping development resources just one click away.",
+  tags: ["Components", "Playwrite", "Workspace", "Reference"],
+  url: "https://playwrite-umber.vercel.app/",
+  host: "playwrite-umber.vercel.app",
+  meta: "Alternate deploy",
+}
 ];
